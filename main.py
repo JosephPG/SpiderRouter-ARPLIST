@@ -82,7 +82,7 @@ class SpiderRouter():
         try:
             return self.you_know[get_mac]
         except:
-            return '----------¿Quien te conoce?'
+            return '----------¿Quien?'
 
         
 spider = SpiderRouter('http://192.168.1.1/', 'cgi?5', 'Authorization',
