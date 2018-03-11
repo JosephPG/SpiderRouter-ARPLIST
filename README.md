@@ -22,3 +22,6 @@ Spider hecho especificamente para el Firmware router TP-LINK TD-W8970.
 
 - Obtener la data, convertir la IP(que esta representada como un entero), verificar si la mac es conocido, y dar
  un formato adecuado para imprimir.
+
+![router](https://user-images.githubusercontent.com/25994826/37258509-25688b68-2547-11e8-87d3-a79b2a5d1e3d.jpeg)
+![console](https://user-images.githubusercontent.com/25994826/37258508-222ce520-2547-11e8-90c3-9f4eae2e6176.jpeg)
