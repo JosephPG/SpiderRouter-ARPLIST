@@ -70,7 +70,7 @@ class SpiderRouter():
     def number_to_ip(self, number):
         """ Conversion numero a IP """
         get_number = int(number.split('=')[1])
-        part1 = get_number >> 24   # 0xFF = 255 
+        part1 = get_number >> 24 
         part2 = get_number >> 16 & 0xFF
         part3 = get_number >> 8 & 0xFF
         part4 = get_number & 0xFF
