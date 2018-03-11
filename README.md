@@ -16,9 +16,9 @@ Spider hecho especificamente para el Firmware router TP-LINK TD-W8970.
 
 ## Desarrollo
 
-- Crear un handle para la cookie que contiene el usuario y contraseña en base64 
+- Crear un handle para la cookie que contiene el usuario y contraseña en base64. 
 
-- Enviar la petición POST con la cookie 
+- Enviar la petición POST con la cookie. 
 
-- Obtener la data, convertir la IP(que esta representada como un entero), verificar si conocemos la mac, y dar
- un formato adecuado para imprimirlo.
+- Obtener la data, convertir la IP(que esta representada como un entero), verificar si la mac es conocido, y dar
+ un formato adecuado para imprimir.
