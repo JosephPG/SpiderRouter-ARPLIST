@@ -11,8 +11,7 @@ Spider hecho especificamente para el Firmware router TP-LINK TD-W8970.
 
 - ##### Obtención de lista ARP:
 
- Se realiza petición POST al cual se envía una cadena indicando el formato en el que se recibirá la data, esta
- es una cadena que contiene la lista ARP.
+ Se realiza una petición POST al cual se envía una cadena indicando el formato de la lista ARP a recibir.
 
 ## Desarrollo
 
@@ -20,7 +19,7 @@ Spider hecho especificamente para el Firmware router TP-LINK TD-W8970.
 
 - Enviar la petición POST con la cookie. 
 
-- Obtener la data, convertir la IP(que esta representada como un entero), verificar si la mac es conocido, y dar
+- Obtener la data, convertir la IP(que esta representada como entero), verificar si la mac es conocido, y por ultimo dar
  un formato adecuado para imprimir.
 
 ![router](https://user-images.githubusercontent.com/25994826/37258509-25688b68-2547-11e8-87d3-a79b2a5d1e3d.jpeg)
